@@ -1,0 +1,150 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body{background:skyblue;}
+.main_wrapper{
+	width:1000px;
+	height:auto;
+	margin:auto;
+	background:black;
+}
+header{
+	width:1000px;
+	height:100px;
+	margin:auto;
+}
+#logo{
+	float:left;
+}
+#banner{
+	float:right;
+}
+nav{
+	width:1000px;
+	height:42px;
+	background:gray;
+	color:white;
+}
+#menu{
+	padding:0;
+	margin:0;
+	line-height:35px;
+	float:left;
+}
+#menu li{
+	list-style:none;
+	display:inline;
+}
+#menu a{
+	text-decoration:none;
+	color:white;
+	padding:8px;
+	margin:5px;
+	font-size:18px;
+	font-family:COMIC SANS MS;
+}
+#menu a:hover
+{
+	color:orange;
+	font-weight:bolder;
+	text-decoration:underline;
+}
+#form{
+	float:right;
+	padding-right:8px;
+	line-height:40px;
+}
+section{
+	width:1000px;
+	margin:auto;
+	background:pink
+}
+#section_area{
+	width:800px;
+	float:right;
+	background:pink
+}
+aside{
+	width:200px;
+	background:black;
+	float:left;
+	color:white;
+}
+#sidebar_title{
+	background:white;
+	color:black;
+	font-size:22px;
+	font-family:arial;
+	padding:10px;
+	text-align:center;
+}
+#cats{
+	text-align:center;
+}
+#cats li{
+	list-style:none;
+	margin:5px;
+}
+#cats img{border:2px solid white;padding:4px;}
+#cats a{
+	color:orange;
+	padding:8px;
+	margin:5px;
+	text-decoration:none;
+	font-size:17px;
+	font-family:comic sans ms;
+}
+#cats a:hover{
+	color:white;
+	font-weight:bolder;
+	text-decoration:underline;
+}
+#products_box{ 
+	width:800px;
+	text-align:center;
+	margin-left:30px;
+	margin-bottom:10px;
+}
+#single_product
+{
+	float:left;
+	margin-left:30px;
+	padding:10px;
+}
+#single_product img{
+	border:2px solid black;
+}
+#shopping_cart
+{
+	width:800px;
+	height:50px;
+	background:black;
+	color:white;
+}
+
+footer{
+	width:1000px;
+	height:100px;
+	background:gray;
+	clear:both;
+}
